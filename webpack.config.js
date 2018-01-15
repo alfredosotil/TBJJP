@@ -6,7 +6,7 @@ module.exports  = {
         app: path.resolve(__dirname, './frontend/web/js/app.js'),
         style: path.resolve(__dirname, './frontend/web/css/style.less'),
     },
-    output: {
+        output: {
         filename: '[name].js',
         path: path.resolve(__dirname, './frontend/web/bundle'),
     },

@@ -30,6 +30,7 @@ class FrontendAsset extends AssetBundle
      * @var array
      */
     public $css = [
+//        'bundle/style.css',
         'css/style.css',
     ];
 
@@ -37,6 +38,7 @@ class FrontendAsset extends AssetBundle
      * @var array
      */
     public $js = [
+//        'bundle/app.js',
         'js/app.js',
     ];
 
