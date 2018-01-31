@@ -3,7 +3,8 @@
   "scripts": {
     "start": "neutrino start --use @neutrinojs/web",
     "build": "neutrino build --use @neutrinojs/web",
-    "test": "neutrino test --use @neutrinojs/web @neutrinojs/karma",
+    "build": "webpack --progress",
+    "watch": "webpack watch"
   },
   "devDependencies": {
     "@neutrinojs/web": "^8.1.1",

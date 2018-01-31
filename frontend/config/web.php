@@ -3,7 +3,7 @@ $config = [
     'homeUrl'=>Yii::getAlias('@frontendUrl'),
     'controllerNamespace' => 'frontend\controllers',
     'defaultRoute' => 'site/index',
-    'bootstrap' => ['maintenance'],
+    'bootstrap' => ['maintenance', 'webpack'],
     'modules' => [
         'user' => [
             'class' => 'frontend\modules\user\Module',
@@ -14,7 +14,10 @@ $config = [
             'modules' => [
                 'v1' => 'frontend\modules\api\v1\Module'
             ]
-        ]
+        ],
+        'webpack' => [
+            'class' => 'sweelix\webpack\Module',
+        ],
     ],
     'components' => [
         'authClientCollection' => [
