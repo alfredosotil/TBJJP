@@ -1,0 +1,18 @@
+{
+    "sourceDir": "frontend\/web\/assets\/webpack",
+    "entry": {},
+    "commonBundles": [
+        "manifest"
+    ],
+    "externals": {},
+    "alias": {},
+    "subDirectories": {
+        "sources": "frontend\/web",
+        "dist": "bundle"
+    },
+    "assets": {
+        "styles": "css",
+        "scripts": "js"
+    },
+    "catalog": "assets-catalog.json"
+}

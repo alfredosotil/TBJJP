@@ -21,5 +21,8 @@ return [
             'migrationTable' => '{{%system_rbac_migration}}',
             'templateFile' => '@common/rbac/views/migration.php'
         ],
+        'webpack' => [
+            'class' => 'sweelix\webpack\commands\WebpackController',
+        ],
     ],
 ];

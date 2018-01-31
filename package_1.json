@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack --progress",
+    "watch": "webpack watch"
+  },
+  "devDependencies": {
+    "@neutrinojs/web": "^8.1.1",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-latest": "^6.24.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "less": "^2.7.2",
+    "less-loader": "^3.0.0",
+    "less-plugin-clean-css": "^1.5.1",
+    "neutrino": "^8.1.1",
+    "raw-loader": "^0.5.1",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
