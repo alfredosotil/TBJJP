@@ -31,12 +31,19 @@ class FrontendAsset extends AssetBundle
      */
     public $css = [
 //        'bundle/style.css',
+        'css/bootstrap.min.css',
+        'css/jquery-ui.min.css',
+        'css/animate.css',
         'css/css-plugin-collections.css',
         'css/menuzord-skins/menuzord-boxed.css',
         'css/style-main.css',
-        'css/colors/theme-skin-lemon.css',
+//        'css/colors/theme-skin-lemon.css',
+//        'css/colors/theme-skin-sky-blue-light.css',
+        'css/colors/theme-skin-sky-blue.css',
+        'css/preloader.css',
         'css/custom-bootstrap-margin-padding.css',
         'css/responsive.css',
+        'css/style-main-dark.css',
         'js/revolution-slider/css/settings.css',
         'js/revolution-slider/css/layers.css',
         'js/revolution-slider/css/navigation.css',
@@ -51,6 +58,7 @@ class FrontendAsset extends AssetBundle
         'js/jquery-ui.min.js',
         'js/bootstrap.min.js',
         'js/jquery-plugin-collection.js',
+        'js/revolution-slider/js/jquery.themepunch.tools.min.js',
         'js/revolution-slider/js/jquery.themepunch.revolution.min.js',
         'js/calendar-events-data.js',
         'js/custom.js',
@@ -69,8 +77,8 @@ class FrontendAsset extends AssetBundle
      * @var array
      */
     public $depends = [
-        YiiAsset::class,
-        BootstrapAsset::class,
-        Html5shiv::class,
+//        YiiAsset::class,
+//        BootstrapAsset::class,
+//        Html5shiv::class,
     ];
 }
